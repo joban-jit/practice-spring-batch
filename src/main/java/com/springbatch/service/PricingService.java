@@ -5,6 +5,8 @@ import java.util.Random;
 import lombok.Getter;
 import org.springframework.beans.factory.annotation.Value;
 
+import com.springbatch.exception.PricingException;
+
 public class PricingService {
 
     @Value("${spring.cellular.pricing.data:0.01}")
